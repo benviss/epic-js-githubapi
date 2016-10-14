@@ -9,17 +9,12 @@ _A website that will allow users to input a Github Username and see a collection
 ## Setup/Installation Requirements
 
 * _Copy the repository from GitHub_
-*
+* Install npm, and dependencies listed in packages.json and bower.json
 
 ## BDD
-- Create new Stylist: "Jeremy"
-- Create new Client: "Bill"
-- Assign client to stylist: "Jeremy" stylist for "Bill"
-- Update information for Stylist: "Jeremy Rogers"
-- Update information for Client: "Billy Bob"
-- Delete clients: delete "Billy Bob"; "Client list empty"
-- Delete Stylist: delete "Jeremy Rogers", "Stylist list empty"
-
+-submit user name: "benviss"; "benviss repositories"
+  -check validity of username: if not found return message: "Username not found"
+-view repositories of submitted username-header
 ## GitHub link
 https://github.com/benviss/epic-js-githubapi
 
