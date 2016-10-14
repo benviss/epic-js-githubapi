@@ -14,7 +14,7 @@ _A website that will allow users to input a Github Username and see a collection
 ## BDD
 -submit user name: "benviss"; "benviss repositories"
   -check validity of username: if not found return message: "Username not found"
--view repositories of submitted username-header
+-view repositories of submitted username
 ## GitHub link
 https://github.com/benviss/epic-js-githubapi
 
