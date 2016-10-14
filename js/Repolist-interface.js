@@ -14,7 +14,7 @@ function listRepositories(repos) {
 
 function ifNull(string) {
   if(string === null) {
-    return "";
+    return "No Description Found";
   } else {
     return string;
   }
@@ -33,8 +33,8 @@ $(document).ready(function() {
 
     $(this).append(
       '<ul>'+
-        '<li>Repository clone URL: '+user[repoId].clone_URL+'</li>'+
-        '<li>Created at: '+user[repoId].created_at+'</li>'+
+        '<li>Repository clone URL: '+user[repoId].clone_url+'</li>'+
+        '<li>Created at: '+moment(user[repoId].created_at).format("MM/DD/YYYY")+'</li>'+
         '<li> Description: '+ifNull(user[repoId].description)+'</li>'+
       '</ul>'
     );
