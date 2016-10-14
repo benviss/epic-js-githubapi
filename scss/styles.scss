@@ -1,0 +1,32 @@
+.repo-name {
+  font-weight: bold;
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+}
+
+.repo-name:hover {
+     text-decoration:none;
+     text-shadow: 1px 1px 1px #555;
+}
+
+#username-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message{
+  margin: auto;
+  width: 55%;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  display: inline;
+}
+
+.user-input {
+  display: inline-block;
+  float: right;
+}
